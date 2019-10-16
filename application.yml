@@ -1,16 +1,16 @@
 ﻿
 spring:
-  prifiles:
+  profiles:
     active:
       - dev
 ---
 spring:
-  prifiles: dev
+  profiles: dev
   application:
     name: microservicecloud-config-ddd-dev
 ---
 spring:
-  prifiles: test
+  profiles: test
   application:
     name: microservicecloud-config-ddd-test
 

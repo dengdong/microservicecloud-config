@@ -1,15 +1,17 @@
-﻿spring:
+﻿
+spring:
   prifiles:
     active:
-       - dev
+      - dev
 ---
 spring:
-  prifiles: dev # 开发环境
+  prifiles: dev
   application:
     name: microservicecloud-config-ddd-dev
 ---
 spring:
-  profiles: test 
+  prifiles: test
   application:
     name: microservicecloud-config-ddd-test
+
     
